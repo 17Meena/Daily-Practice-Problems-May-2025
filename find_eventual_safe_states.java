@@ -1,5 +1,5 @@
 class Solution {
-    //topo sort algo(one brute algo using cycle detection in directed graphs)
+    //using cycyle detection method -- dfs
     public boolean dfsCheck(int node, int[][] graph, int[] vis, int[] pathVis){
         vis[node] = 1;
         pathVis[node] = 1;
